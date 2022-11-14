@@ -6,7 +6,7 @@ public class HW9 {
         int sumMax = -1;
         int sumMin = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            totalMonth = arr[i] + totalMonth;
+            totalMonth += arr[i];
             if (sumMax < arr[i]) {
                 sumMax = arr[i];
             }
